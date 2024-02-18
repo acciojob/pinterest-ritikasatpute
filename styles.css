@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.hero{
+	
+	display:flex;
+	justify-content:top;
+	align-items:center;
+	border-sizing:border-box;
+}
+#img{
+	flex:1;
+	width:10px;
+	height:200px;
+	object-fit:cover;
+}
+#btn{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:3px;
+}
+.text{
+	
+	
+	text-align:center;
+	font-size:small;
+	flex:1;
+}
+
+
